@@ -1,4 +1,4 @@
-# [SEGA Megadrive/Genesis](https://en.wikipedia.org/wiki/Sega_Genesis) for [MiSTer Platform](https://github.com/MiSTer-devel/Main_MiSTer/wiki)
+# [SEGA Megadrive/Genesis](https://en.wikipedia.org/wiki/Sega_Genesis) for SoCkit Platform
 
 This is the port of the [fpgagen](https://github.com/Torlus/fpgagen) core.
 
