@@ -278,7 +278,7 @@ localparam CONF_STR = {
 	"P1OA,CRAM Dots,Off,On;",
 	"P1-;",
 	"P1OEF,Audio Filter,Model 1,Model 2,Minimal,No Filter;",
-	//"P1OB,FM Chip,YM2612,YM3438;",
+	"P1OB,FM Chip,YM2612,YM3438;",
 	"P1ON,HiFi PCM,No,Yes;",
 
 	"P2,Input;",
@@ -1153,7 +1153,7 @@ wire piano_strobe;
 wire piano = status[56];
 miraclepiano miracle(
 	.clk(clk_sys),
-	.reset(reset_nes || !piano),
+	.reset(reset || !piano),
 	.strobe(piano_strobe),
 	.joypad_o(piano_joypad_do),
 	.joypad_clock(piano_clock),
